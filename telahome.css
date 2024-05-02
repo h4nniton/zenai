@@ -1,0 +1,29 @@
+body {
+    background-color: #F2EEE7;
+}
+
+.caixaPrincipal {
+    width: 1679px;
+    height: 720px;
+    background-color: #E7DFD0;
+    margin-top: 8%;
+    margin-left: 6%;
+}
+
+.logo {
+    margin-top: -867px;
+    margin-left: 70px;
+}
+
+textarea{
+    height: 367px;
+    width: 325px;
+    background-color: #F2EEE7;
+    color: #393F50;
+    font-size: 18px;
+    padding-left: 8px;
+    border: none;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+

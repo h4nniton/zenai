@@ -11,7 +11,7 @@ async function validarLogin(){
         alert('Preencha os Campos Corretamente....')
     } else {
 
-        const users = await fetch('http://localhost:5080/usuario') 
+        const users = await fetch('http://back-login.vercel.app/usuarios') 
         const listUsers = await users.json()
 
         listUsers.forEach((user) => {

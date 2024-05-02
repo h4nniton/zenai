@@ -44,26 +44,49 @@ body {
 .email input {
     background-image: url(./img/email.png);
     background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-y: center;
+}
+
+.email ::placeholder {
+    font-family: "Lalezar", system-ui;
+    color: #00000088;
+    font-size: 16px;
+    text-align: center;
 }
 
 .senha input {
     background-image: url(./img/cadeado.png);
     background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-y: center;
+}
+
+.senha ::placeholder {
+    font-family: "Lalezar", system-ui;
+    color: #00000088;
+    font-size: 16px;
+    text-align: center;
 }
 
 button {
-    width: 60px;
-    height: 30px;
+    width: 80px;
+    height: 45px;
     background: none;
-    margin-top: 25px;
-    margin-left: 50%;
     display: flex;
     background-color: #BCAA8A;
+    border: none;
+    margin-left: 45%;
+    margin-top: 15px;
 }
 
 button p {
     margin-top: 2px;
     margin-left: 3px;
     color: #FFFFFF;
+    text-align: center;
     font-family: "Lalezar", system-ui;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 9px;
 }
